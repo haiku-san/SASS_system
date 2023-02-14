@@ -1,2 +1,3 @@
-# SASS EN SYSTEM 7:1
-Aller sur la branche "develop" pour obtenir le code en cours de developpement
+# SASS 7:1 SYSTEM
+
+Basic 7:1 SASS System to help me start my web projects
