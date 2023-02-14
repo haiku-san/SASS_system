@@ -17,47 +17,73 @@ $_L: 2em;
 $_XL: 3em;
 $_XXL: 5em;
 
-$titres: "typography des titre";
-$contenus: "typography des contenus";
-
-$primary: #9356dc;
-$secondary: #ff79da;
-$ternary: #99e2d0;
-
-$color-primary: $black;
-$color-secondary: $dark2;
-
-%titreType0_level1 {
-  @extend %font__titre;
-  @extend %bold1;
-  font-size: 2em;
-  color: $color-primary;
+%font__title-serif-1 {
+    @extend %font__serif;
+    font-size: 1.5rem;
+    font-weight: 400;
 }
-%titreType0_level2 {
-  @extend %font__titre;
-  @extend %bold1;
-  font-size: 1em;
-  color: $color-primary;
+%font__title-serif--mobile {
+    @extend %font__serif;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
-%titreType1_level1 {
-  @extend %font__content;
-  font-size: 2em;
-  color: $color-primary;
+%font__title-serif-2 {
+    @extend %font__serif;
+    font-size: 1rem;
+    font-weight: 400;
 }
-%titreType1_level2 {
-  @extend %font__content;
-  font-size: 2em;
-  color: $color-primary;
+%font__title-serif-2--mobile {
+    @extend %font__serif;
+    font-size: 0.8rem;
+    font-weight: 400;
 }
-%titreType2_level1,
-%titre_footer1 {
-  @extend %font__content;
-  font-size: 1em;
-  color: $color-primary;
+%font__header-title {
+    @extend %font__sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
 }
-%titreType2_level2,
-%titre_footer2 {
-  @extend %font__content;
-  font-size: 1em;
-  color: $color-primary;
+%font__header-navlink {
+    @extend %font__sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+}
+%font__searchbar-title {
+    @extend %font__sans-serif;
+    font-size: 0.8em;
+    font-weight: 400;
+}
+%font__searchbar-subtitle {
+    @extend %font__sans-serif;
+    font-size: 0.5em;
+    font-weight: 300;
+}
+%font__searchbar-suggestion {
+    @extend %font__sans-serif;
+    font-size: 0.5em;
+    font-weight: 300;
+}
+%font__activity-index {
+    @extend %font__sans-serif;
+    font-size: 0.5em;
+    font-weight: 400;
+}
+%font__activity-text {
+    @extend %font__sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+%font__activity-text--mobile {
+    @extend %font__sans-serif;
+    font-size: 0.8em;
+    font-weight: 400;
+}
+%font__cta-primary {
+    @extend %font__sans-serif;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+%font__cta-secondary {
+    @extend %font__sans-serif;
+    font-size: 0.8em;
+    font-weight: 500;
 }
