@@ -214,7 +214,7 @@ body > main > section.restaurants {
 body > footer {
   padding: 1em;
 }
-@media all and (max-width: taille S) {
+@media all and (max-width: 560px) {
   body > header {
     height: 75px;
     text-align: center;
