@@ -1,104 +1,130 @@
 @import "./main.scss";
 
-
 /***********************************/
 /***********************************/
 /***********************************/
-body{}
+body {
+}
 
-
-
-body{
-  >header{
-    
+body {
+  > header {
   }
-  >nav{
-
+  > nav {
   }
-  >main{
-    >section{
+  > main {
+    > section {
     }
-    >article{
+    > article {
     }
-    .carte{
+    .carte {
     }
   }
-  >footer{
-    >h4{
+  > footer {
+    > h4 {
     }
-    >h5,>a{}
-    >h5{
+    > h5,
+    > a {
     }
-    >a{
+    > h5 {
+    }
+    > a {
     }
   }
 }
 
-
-@media all and (max-width:$mobile){
-  body{
-    >header{
-      height:75px;
+@media all and (max-width: $mobile) {
+  body {
+    > header {
+      height: 75px;
       text-align: center;
-      >a{>i{}}
-      >img{}
-    }
-    >nav{
-      >form{
-        >input{}
-        >label{>i{}}
+      > a {
+        > i {
+        }
       }
-      >section{
-        >h1{}
-        >p{}
-        >a{}
+      > img {
       }
     }
-    >main{
-      >section{}
-      >article{}
+    > nav {
+      > form {
+        > input {
+        }
+        > label {
+          > i {
+          }
+        }
+      }
+      > section {
+        > h1 {
+        }
+        > p {
+        }
+        > a {
+        }
+      }
     }
-    >footer{
-      >ul{}
+    > main {
+      > section {
+      }
+      > article {
+      }
     }
-  }
-}
-@media all and (min-width:$mobile) and (max-width:$tablette){
-  body{
-    &>header{}
-    &>nav{}
-    &>main{
-      &>section{}
-      &>article{}
-    }
-    &>footer{
-      &>ul{}
-    }
-  }
-}
-@media all and (min-width:$desktop) and (max-width:$tv){
-  body{
-    &>header{}
-    &>nav{}
-    &>main{
-      &>section{}
-      &>article{}
-    }
-    &>footer{
-      &>ul{}
+    > footer {
+      > ul {
+      }
     }
   }
 }
-@media all and (min-width:$tv){
-  body{
-    &>header{}
-    &>nav{}
-    &>main{
-      &>section{}
-      &>article{}
+@media all and (min-width: $mobile) and (max-width: $tablette) {
+  body {
+    & > header {
     }
-    &>footer{
-      &>ul{}
+    & > nav {
+    }
+    & > main {
+      & > section {
+      }
+      & > article {
+      }
+    }
+    & > footer {
+      & > ul {
+      }
+    }
+  }
+}
+@media all and (min-width: $desktop) and (max-width: $tv) {
+  body {
+    & > header {
+    }
+    & > nav {
+    }
+    & > main {
+      & > section {
+      }
+      & > article {
+      }
+    }
+    & > footer {
+      & > ul {
+      }
+    }
+  }
+}
+@media all and (min-width: $tv) {
+  body {
+    & > header {
+    }
+    & > nav {
+    }
+    & > main {
+      & > section {
+      }
+      & > article {
+      }
+    }
+    & > footer {
+      & > ul {
+      }
     }
   }
 }
